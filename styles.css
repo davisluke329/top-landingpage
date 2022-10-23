@@ -19,3 +19,29 @@ body {
   text-decoration: underline;
   margin-right: 16px;
 }
+
+.row-1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 300px;
+  color: #F9FAF8;
+  background-color: #1F2937;
+}
+
+.row-1-left {
+  width: 400px;
+}
+
+.row-1 img {
+  height: 400px;
+  width: auto;
+}
+
+.row-1-left button {
+  background-color: #3882f6;
+  color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 15px;
+  border: none;
+}
